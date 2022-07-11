@@ -1,0 +1,67 @@
+body{
+   background-image: url(https://my4kwallpapers.com/wp-content/uploads/2020/10/Naruto-Computer-Wallpaper-1.jpg);
+}
+h1{
+    color: white;
+    font-family: 'Arial Narrow Bold';
+    width: 100%; border: 1px solid white;
+    text-align: center;
+}
+.envoltura{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articulo1{
+    width: 45%;
+    height: 100px;
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center; color: white;
+}
+.articulo2{
+    width: 45%;
+    height: 180px;
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center; color: white;
+}
+.articulo3{
+    width: 45%;
+    height: 120px;
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center; color: white;
+}
+.articulo4{
+    width: 45%;
+    height: 260px;
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center; color: white;
+}
+@media screen and (min-width: 1000px){
+    .articulo1{
+        width: 23%;
+        height: 200px;
+        border: 1px solid purple;
+        margin: 0.5%;
+    }
+    .articulo2{
+        width: 23%;
+        height: 200px;
+        border: 1px solid purple;
+        margin: 0.5%;
+    }
+    .articulo3{
+        width: 23%;
+        height: 200px;
+        border: 1px solid purple;
+        margin: 0.5%;
+}
+.articulo4{
+    width: 23%;
+    height: 260px;
+    border: 1px solid purple;
+    margin: 0.5%;}
+}
